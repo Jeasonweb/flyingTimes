@@ -11,6 +11,9 @@
        	padding: 0;
        	box-sizing: border-box;
        }
+      /* nav {
+       	background: rgba(255,255,255,0.5);
+       }*/
        ol,ul{
        	list-style: none;
        }
@@ -151,7 +154,10 @@
 		#myChoice3 .list{
 			overflow: hidden;
 		}
-		
+		.imgbox{
+			width: 100%;
+			overflow: hidden;
+		}
 		#myChoice3 .list  li{
 			width: 31.33%;
 			margin: 0 1%;
@@ -203,7 +209,6 @@
 			width: 100%;
 			background: #3d495f;
 			color:#FFFFFF;
-			margin-bottom: 10rem;
 		}
 		footer a{
 			color:#FFFFFF;
@@ -215,6 +220,8 @@
 		footer .footer_title{
 			width: 100%;
 			overflow: hidden;
+			padding: 0 5%;
+			
 		}
 		footer .footer_title li{
 			width: 20%;
@@ -244,6 +251,9 @@
 		}
 		.partnerContainer{
 			width: 100%;
+			float: left;
+			padding: 0 5%;
+			background: rgba(33,33,33,.5);
 		}
 		.partnerContainer li{
 			float: left;
@@ -252,6 +262,8 @@
 		.verifyContainer{
 			width: 100%;
 			overflow: hidden;
+			padding: 0 5%;
+			background: rgba(33,33,33,.5);
 		}
 		.verifyContainer .verify_list{
 			overflow: hidden;
@@ -299,14 +311,30 @@
 		}
 		.footerBottomContainer{
 			width: 100%;
+			padding-left: 5%;
+			position: relative;
 		}
 		.footerBottomContainer i {
 		    position: absolute;
 		    top: 10px;
-		    left: 0;
+		    left: 5%;
 		    display: block;
 		    width: 206px;
 		    height: 38px;
 		    background: url(../img/home/icon.png) no-repeat 0 -158px;
 		}
 		
+		.wq_footer_adviser_title,.module_label{
+			font-size:2.5rem;
+		}
+		.wq_footer_adviser_title font{
+			font-size: 1.7rem;
+			padding-left: 0.5rem;
+		}
+		.partnerContainer ul{
+			overflow: hidden;
+		}
+		.contentContainer{
+			overflow: hidden;
+			padding: 0 5%;
+		}
