@@ -30,9 +30,6 @@
 		text-decoration: none;
 		color: #777777;
 	}
-	
-
-
 		footer{
 			width: 100%;
 			background: #3d495f;
@@ -142,16 +139,15 @@
 			width: 100%;
 			padding-left: 5%;
 			position: relative;
+			height: 48px;
 		}
 		.footerBottomContainer i {
-		    position: absolute;
-		    top: 10px;
-		    left: 5%;
 		    display: block;
 		    width: 206px;
 		    height: 38px;
 		    background: url(//www.quimg.com/a14075/front_web/assets/dist/image/footer/icon.png) 0 -158px no-repeat;
 		    float: left;
+		    margin-top:4px;
 		}
 		
 		.wq_footer_adviser_title,.module_label{
