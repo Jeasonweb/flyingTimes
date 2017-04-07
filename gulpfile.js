@@ -76,5 +76,10 @@ var imgArr = ['img/*.{png,jpg,gif,svg}','img/**/*.{png,jpg,gif,svg}'];
 					.pipe(gulp.dest('build/css'));		
 		
 	});
+	gulp.task('move',function(){
+		return gulp.src('source/')
+					.pipe(gulp.dest('build/source'));
+		
+	})
 	gulp.task('images',['img','imghome']);
-	gulp.task('default',['webserver','watchCss','watchJS','watchHtml','img']);
+	gulp.task('default',['webserver','watchCss','watchJS','watchHtml','img','move']);

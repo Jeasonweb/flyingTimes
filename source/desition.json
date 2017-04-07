@@ -1,0 +1,18 @@
+{
+"resultStatus":"ok",
+	"data":{
+		"desition":[
+			{"cid":101,"title":"10日<深度>洛杉矶、拉斯维加斯、旧金山、黄石公园、大峡谷全景游","price":3763,"startPlace":"洛杉矶","imgUrl":"//www.quimg.com/poi/500x300/HukaFallssan_20140821170852385.jpg"},
+			{"cid":102,"title":"8日<畅玩>墨尔本、黄金海岸、凯恩斯、大堡礁超值游（全程入住4星级酒店+ 含4段澳大利亚境内机票）","price":9378,"startPlace":"墨尔本","imgUrl":"//www.quimg.com/poi/500x300/HukaFallssan_20140821170852385.jpg"},
+			{"cid":103,"title":"9日【折扣+赠送出行礼包】<花儿与少年足迹>【伦敦 牛津 剑桥 温德米尔湖 爱丁堡 苏格兰高地】英国游","price":4330,"startPlace":"伦敦","imgUrl":"//www.quimg.com/poi/500x300/HukaFallssan_20140821170852385.jpg"}],
+		"air":[
+			{"cid":201,"title":"【私家小团，仅有10席】美国洛杉矶+拉斯维加斯+旧金山+圣地亚哥+1号公路+环球影城+大峡谷13日10晚跟团游","price":28999,"startPlace":"上海","imgUrl":"//www.quimg.com/poi/500x300/HukaFallssan_20140821170852385.jpg"},
+			{"cid":202,"title":"【机票+当地跟团】12日<深度>洛杉矶、拉斯维加斯、盐湖城、黄石公园、大峡谷豪华团","price":5366,"startPlace":"北京","imgUrl":"//www.quimg.com/poi/500x300/HukaFallssan_20140821170852385.jpg"},
+			{"cid":203,"title":"【机票+当地跟团】12日<深度>悉尼+墨尔本+黄金海岸+凯恩斯东岸全貌游（全航空）","price":17479,"startPlace":"深圳","imgUrl":"//www.quimg.com/poi/500x300/HukaFallssan_20140821170852385.jpg"}
+		],
+		"departure":[
+			{"cid":301,"title":"6日<大阪+京都+日本中部+东京>大阪环球影城、天桥立、白川合掌村、东京银座【2晚温泉】","price":9999,"startPlace":"深圳","imgUrl":"//www.quimg.com/poi/500x300/HukaFallssan_20140821170852385.jpg"},
+			{"cid":302,"title":"13日<京沪出发，全国联运>洛杉矶、旧金山、黄石公园、17哩湾、羚羊彩穴、大峡谷深度游","price":14499,"startPlace":"上海","imgUrl":"//www.quimg.com/poi/500x300/HukaFallssan_20140821170852385.jpg"},
+			{"cid":303,"title":"16日<哈佛夏令营·8月3日出发>哈佛大学、麻省理工、耶鲁大学、哥伦比亚大学（成功人生美国东海岸夏令营）","price":41800,"startPlace":"深圳","imgUrl":"//www.quimg.com/poi/500x300/HukaFallssan_20140821170852385.jpg"}]
+		}
+}

@@ -27,7 +27,9 @@
        body{
        	background: #efefef;
        	font-size: 14px;
-       	line-height: 1.42857143;     	
+       	line-height: 1.42857143; 
+       	overflow:-Scroll;
+       	overflow-x:hidden;    	
        }
 		#myCarousel{
 			position: relative;

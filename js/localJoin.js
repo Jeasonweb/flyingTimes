@@ -15,7 +15,6 @@ var bannerArr = ['img/localImg/banner01.jpg','img/localImg/banner02.jpg','img/lo
 var timer = null
 var JZ = {
 	
-	timer:null,
 	carousel:function(){
 		
 		var tempStr = '<ol>';
@@ -69,9 +68,104 @@ var JZ = {
 		
 		
 		
-	}	
+	},
+	
+	appendDesition:function(){
+		
+		$.ajax({
+			type:"get",
+			url:"source/desition.json",
+			async:true,
+			success:function(jsonData){
+				if(jsonData.resultStatus=='ok'){
+					var desitionArr = jsonData.data.desition;
+					var desitionCount = desitionArr.length;
+					var airArr = jsonData.data.air;
+					var airCount = airArr.length;
+					
+					var depArr = jsonData.data.departure;
+					var depCount = depArr.length;
+					
+					var tempStr = '';
+					if(desitionCount){
+						 tempStr += '<div class="desition"><h2>目的地参团</h2>';
+						for(var i=0;i<desitionCount;i++){
+							var desition=desitionArr[i];
+							tempStr +='<dl data-value="'+desition.cid
+							+'"><dt><img src="'+desition.imgUrl
+							+'"/></dt><dd>'+desition.title
+							+'</dd><dd class="price">出发地:<span>'+desition.startPlace
+							+'</span> <i>&yen;<b>'+desition.price
+							+'</b>起</i></dd></dl>';
+							
+							
+						}
+						tempStr +='</div>';						
+						
+					}
+					if(airCount){
+						 tempStr += '<div class="desition"><h2>机票+目的地参团</h2>';
+						for(var i=0;i<airCount;i++){
+							var air=airArr[i];
+							tempStr +='<dl data-value="'+air.cid
+							+'"><dt><img src="'+air.imgUrl
+							+'"/></dt><dd>'+air.title
+							+'</dd><dd class="price">出发地:<span>'+air.startPlace
+							+'</span> <i>&yen;<b>'+air.price
+							+'</b>起</i></dd></dl>';		
+							
+						}
+						tempStr +='</div>';			
+						
+					}
+					if(depCount){
+						tempStr += '<div class="desition"><h2>出发地参团</h2>';
+						for(var i=0;i<depCount;i++){
+							var dep=depArr[i];
+							tempStr +='<dl data-value="'+dep.cid
+							+'"><dt><img src="'+dep.imgUrl
+							+'"/></dt><dd>'+dep.title
+							+'</dd><dd class="price">出发地:<span>'+dep.startPlace
+							+'</span> <i>&yen;<b>'+dep.price
+							+'</b>起</i></dd></dl>';		
+							
+						}
+						tempStr +='</div>';
+						
+						
+					}
+					
+					$('.desitionContainer').html(tempStr);
+					
+					
+						
+					
+				}	
+				
+			},
+			error:function(){
+				alert('网络出错');
+			}
+		});
+		
+	},
+	producedOtherService:function(){
+		
+		
+		
+	}
+	
 	
 }
 
 
 JZ.carousel();
+
+
+$('document').ready(function(){
+	
+	JZ.appendDesition();
+	
+	
+});
+
