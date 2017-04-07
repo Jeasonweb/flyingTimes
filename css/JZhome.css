@@ -29,7 +29,9 @@
        	font-size: 14px;
        	line-height: 1.42857143;     	
        }
-		
+		#myCarousel{
+			position: relative;
+		}
 		#myCarousel li{
 			width: 100%;
 			display: none;
@@ -71,11 +73,11 @@
 			border-radius: 50%;
 		}
 		.choices a dl dd{
-			font-size: 1.3rem;		
+			font-size: 1.2rem;		
 		}
 		
 		.choices a dl .choices_title{
-			font-size: 2.2rem;
+			font-size: 1.7rem;
 		}
 		.choicesContent{
 			width: 100%;			
@@ -173,9 +175,7 @@
 		    height: 60px;
 		    background: url(../img/home/index-20160406.png) no-repeat;
 		}
-		#myChoice3 .head .c1{
-		    background-position: -280px -100px;
-		}
+		
 		
 		.demand{
 			overflow: hidden;
@@ -189,6 +189,9 @@
 		}
 		.plan .head{
 			float:right;
+		}
+		#myChoice3 .head .c1{
+		    background-position: -280px -100px;
 		}
 		#myChoice3 .head .a2 {
 		    background-position: -160px -160px;
@@ -204,137 +207,4 @@
 		}
 		#myChoice3 .head .c2 {
 		    background-position: -280px -160px;
-		}
-		footer{
-			width: 100%;
-			background: #3d495f;
-			color:#FFFFFF;
-		}
-		footer a{
-			color:#FFFFFF;
-			overflow: hidden;
-		}
-		footer  a:focus, footer a:hover{
-       		color:#FFFFFF;
-       	}
-		footer .footer_title{
-			width: 100%;
-			overflow: hidden;
-			padding: 0 5%;
-			
-		}
-		footer .footer_title li{
-			width: 20%;
-			float: left;
-			text-align: center;
-		}
-		.phoneContainer{
-			width: 50%;
-			float: left;
-			border-right: 1px solid #fff;
-		}
-		.phoneList {
-			overflow: hidden;
-		}
-		.phoneList li{
-			width: 50%;
-			float: left;
-		}
-		.aboutContainer{
-			width: 50%;
-			float: left;
-			text-align: center;			
-		}
-		.aboutContainer ul{
-			width: 25%;
-			float: left;			
-		}
-		.partnerContainer{
-			width: 100%;
-			float: left;
-			padding: 0 5%;
-			background: rgba(33,33,33,.5);
-		}
-		.partnerContainer li{
-			float: left;
-			padding: 0 1rem;
-		}
-		.verifyContainer{
-			width: 100%;
-			overflow: hidden;
-			padding: 0 5%;
-			background: rgba(33,33,33,.5);
-		}
-		.verifyContainer .verify_list{
-			overflow: hidden;
-			width: 100%;
-		}
-		.verify_list li{
-			width: 81px;
-			height: 41px;
-			float: left;
-			margin: 0.7rem;
-		}
-		.verify_list li a {
-		    display: block;
-		    width: 100%;
-		    height: 100%;
-		    background: url(../img/home/all.png) no-repeat;
-		}
-		.verify_list .license_icon a{
-			background-position: 0 0;
-			
-		}
-		.verify_list .zfb_icon a{
-			background-position: -95px 0;
-			
-		}
-		.verify_list .baidu_icon a{
-			background-position: -189px 0;
-			
-		}
-		.verify_list .a360_icon a{
-			background-position: -284px 0;
-			
-		}
-		.verify_list .cert_icon a{
-			background-position: -95px -55px;
-			
-		}
-		.verify_list .record_icon a{
-			background-position: -189px -55px;
-			
-		}
-		.verify_list .geo_icon a{
-			background-position: -284px -55px;
-			
-		}
-		.footerBottomContainer{
-			width: 100%;
-			padding-left: 5%;
-			position: relative;
-		}
-		.footerBottomContainer i {
-		    position: absolute;
-		    top: 10px;
-		    left: 5%;
-		    display: block;
-		    width: 206px;
-		    height: 38px;
-		    background: url(../img/home/icon.png) no-repeat 0 -158px;
-		}
-		
-		.wq_footer_adviser_title,.module_label{
-			font-size:2.5rem;
-		}
-		.wq_footer_adviser_title font{
-			font-size: 1.7rem;
-			padding-left: 0.5rem;
-		}
-		.partnerContainer ul{
-			overflow: hidden;
-		}
-		.contentContainer{
-			overflow: hidden;
-			padding: 0 5%;
 		}

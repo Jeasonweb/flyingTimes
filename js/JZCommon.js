@@ -19,7 +19,7 @@ var JZCommon = {
 			var selectedIndex=$(this).index();
 			$('nav li').eq(selectedIndex).addClass('active').siblings('.active').removeClass('active');
 			
-			location.href = $(this).attr('href');
+			location.href = $(this).find('a').attr('href');
 		})		
 	}	
 }

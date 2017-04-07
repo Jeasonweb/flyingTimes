@@ -1,1 +1,1 @@
-var JZCommon={exchangeNavbar:function(){$("nav").on("click","li",function(a){a.preventDefault();var e=$(this).index();$("nav li").eq(e).addClass("active").siblings(".active").removeClass("active"),location.href=$(this).attr("href")})}};JZCommon.exchangeNavbar();
+var JZCommon={exchangeNavbar:function(){$("nav").on("click","li",function(a){a.preventDefault();var e=$(this).index();$("nav li").eq(e).addClass("active").siblings(".active").removeClass("active"),location.href=$(this).find("a").attr("href")})}};JZCommon.exchangeNavbar();

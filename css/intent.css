@@ -1,0 +1,81 @@
+ /******************************************************************
+        * 功能模塊描述：创建共用于所有手机模块的样式，方便以后作业
+        * ===================================================
+        * 功能內容描述：创建共用于所有手机模块的样式
+        * 聯繫方式：Jeason_zhang888@163.com      Tel:13641638693
+        * 修改時間：
+        * ===================================================
+        *****************************************************************/
+       	section{
+       		width: 100%;
+       		padding: 1rem 5%;
+       		background: url(../img/intent/custom-bg.jpg) no-repeat center;
+       		min-height: 51.5rem;
+       		height: 1015px;
+       	}
+       	section h1{
+       		color:#FFFFFF;
+       		font-weight: 700;
+       	}
+		#requireForm{
+			background: #333;
+			width: 47%;
+			padding: 4%;	
+			overflow: hidden;	
+			font-size: 1.2rem;	
+		}
+		#requireForm label{
+			font-weight: 400;
+			color:#FFFFFF;
+		}
+		
+		#requireForm input{
+			outline: none;
+			border:1px solid #FFFFFF;
+			line-height: 1.6rem;
+			padding: 0.3rem 2%;
+		}
+		#place{
+			width: 100%;
+		}
+		#requireForm .form_left,#requireForm .form_right{
+			width:48%;
+			float: left;
+			margin-top: 1.5rem;
+		}
+		#requireForm .form_left{
+			margin-right: 4%;
+			
+		}
+		#submitBtn{			
+			width: 80%;
+			margin: 0 10%;
+			margin-top: 1.5rem;
+			height: 2.5rem;
+			line-height: 2.5rem;
+			background: #f48702;
+			border: 2px solid #f48702;
+			outline: none;
+			color:#FFFFFF;
+		}
+		#withWhoChoices{
+			background: #FFFFFF;
+			height: 2.2rem;
+			line-height: 2.2rem;
+		}
+		#withWhoChoices label{
+			color: #666;
+			margin-left: 0.5rem;
+		}
+		
+		select{
+			width: 100%;
+			text-align: center;
+			height: 2.2rem;
+			outline: none;
+			padding-left: 5%;
+		}
+		
+		#tel,#concat{
+			width: 100%;
+		}

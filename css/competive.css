@@ -1,0 +1,247 @@
+ /******************************************************************
+        * 功能模塊描述：创建共用于所有手机模块的样式，方便以后作业
+        * ===================================================
+        * 功能內容描述：创建共用于所有手机模块的样式
+        * 聯繫方式：Jeason_zhang888@163.com      Tel:13641638693
+        * 修改時間：
+        * ===================================================
+        *****************************************************************/
+       section{
+       	width: 100%;
+       	background: #EFEFEF;
+       	padding: 2%;
+       }
+		.tabsContainer{
+			width: 90%;
+			margin: 2rem auto;
+			background: #fff;
+			border: 1px solid #DDDDDD;
+			overflow: hidden;
+			border-radius: 0.3rem;
+		}
+		.tabs_theme{
+			width: 54%;
+			float: left;
+			text-align: center;
+			padding: 0 2%;
+		}
+		.tabs_destination{
+			width: 36%;
+			float: right;
+			text-align: center;
+			padding: 0 2%;
+		}
+		.tabsContainer ul{
+			overflow: hidden;
+		}
+		.tabsContainer li{
+			float: left;
+			width: 16%;   		  			
+		}
+		.tabsContainer li i{
+			display: inline-block;
+			width: 80px;
+			height: 80px;
+			background:url(../img/pinzhi/icon.png) no-repeat;
+		}
+		.tabsContainer .tabs_destination li{
+			width: 24%;
+			float: left;
+		}
+		.tabsContainer>div>p{
+			border-bottom:1px solid #ddd;
+			height: 10px;
+			text-align: center;
+		}
+		.tabsContainer>div>p>span{
+			    display: inline-block;
+			    padding: 0 20px;
+			    font-size: 1.2rem;
+			    color: #848484;
+			    line-height: 20px;
+			    background: #FFFFFF;
+		}
+		.tabsContainer li i{
+			transition: all 0.3s ease;
+		}
+		.tabsContainer .tabs_theme li.all i{
+		    background-position: -101px 0;
+		     
+		}
+		.tabsContainer .tabs_theme li.all:hover i,.tabsContainer .tabs_theme li.all.current i{
+		    background-position: -101px -80px;
+		}
+		.tabsContainer .tabs_theme li.homestyle i{
+		    background-position: -821px 0;
+		     
+		}
+		.tabsContainer .tabs_theme li.homestyle:hover i,.tabsContainer .tabs_theme li.homestyle.current i{
+		    background-position: -821px -80px;
+		}
+		.tabsContainer .tabs_theme li.family i{
+		    background-position: -181px 0;
+		     
+		}
+		.tabsContainer .tabs_theme li.family:hover i,.tabsContainer .tabs_theme li.family.current i{
+		    background-position: -181px -80px;
+		}
+		.tabsContainer .tabs_theme li.drive i{
+		    background-position: -261px 0;
+		     
+		}
+		.tabsContainer .tabs_theme li.drive:hover i,.tabsContainer .tabs_theme li.drive.current i{
+		    background-position: -261px -80px;
+		}
+		.tabsContainer .tabs_theme li.yoosure i{
+		    background-position: -341px 0;
+		     
+		}
+		.tabsContainer .tabs_theme li.yoosure:hover i,.tabsContainer .tabs_theme li.yoosure.current i{
+		    background-position: -341px -80px;
+		}
+		.tabsContainer .tabs_theme li.feature i{
+		    background-position: -421px 0;
+		     
+		}
+		.tabsContainer .tabs_theme li.feature:hover i,.tabsContainer .tabs_theme li.feature.current i{
+		    background-position: -421px -80px;
+		}
+		.tabsContainer .tabs_destination li.north-america i{
+		    background-position: -501px 0;
+		     
+		}
+		.tabsContainer .tabs_destination li.north-america:hover i,.tabsContainer .tabs_destination li.north-america.current i{
+		    background-position: -501px -80px;
+		}
+		.tabsContainer .tabs_destination li.europe i{
+		    background-position: -581px 0;
+		     
+		}
+		.tabsContainer .tabs_destination li.europe:hover i,.tabsContainer .tabs_destination li.europe.current i{
+		    background-position: -581px -80px;
+		}
+		.tabsContainer .tabs_destination li.oceania i{
+		    background-position: -661px 0;
+		     
+		}
+		.tabsContainer .tabs_destination li.oceania:hover i,.tabsContainer .tabs_destination li.oceania.current i{
+		    background-position: -661px -80px;
+		}
+		.tabsContainer .tabs_destination li.asia i{
+		    background-position: -741px 0;
+		     
+		}
+		.tabsContainer .tabs_destination li.asia:hover i,.tabsContainer .tabs_destination li.asia.current i{
+		    background-position: -741px -80px;
+		}
+		
+		.loader{
+			font-size: 3.3rem;
+			padding-left: 5%;
+			overflow: hidden;
+		}
+		.loader span{
+			float: left;
+			animation:loading 1s alternate infinite -.8s;
+		}
+		@keyframes loading{
+			from{transform:rotate(15deg)}
+			to{transform:rotate(-15deg)}
+		}
+		
+		@-webkit-keyframes loading{
+			from{transform:rotate(15deg)}
+			to{transform:rotate(-15deg)}
+		}
+		@-ms-keyframes loading{
+			from{transform:rotate(15deg)}
+			to{transform:rotate(-15deg)}
+		}
+		@-moz-keyframes loading{
+			from{transform:rotate(15deg)}
+			to{transform:rotate(-15deg)}
+		}
+		
+		.choices{
+			width: 90%;
+			margin:1rem auto;
+		}
+		.choices ul{
+			width: 100%;
+			overflow: hidden;
+		}
+		.choices ul li{
+			background: #FFFFFF;
+			float: left;
+			width: 48%;
+			padding: 2% 2%;
+			border: 1px solid transparent;
+		}
+		.choices ul li:hover{
+			border: 1px solid #00BD95;
+		}
+		.choices ul li:nth-child(1){
+			margin-right: 4%;
+		}
+		.choices ul li .imgbox{
+			width: 100%;
+			overflow: hidden;
+		}
+		.choices ul li .imgbox img{
+			width: 100%;
+			transition: all 1.2s ease;
+		}		
+		.choices ul li a:hover .imgbox img{
+			-webkit-transform: scale(1.2,1.2);
+    		-ms-transform: scale(1.2,1.2);
+			transform: scale(1.2,1.2);
+		}
+		.choices ul li a h3{
+			font-size: 1.3rem;
+		}
+		.choices ul li a:hover h3{
+			color: #00BD95;
+		}
+		.choices ul li a .tit p{
+			font-size: 1.1rem;
+		}
+		.choices ul li a .tit p span i{
+			color: red;
+			font-size: 2rem;
+		}
+		.text{
+			padding-top: 1rem;
+			border-top:1px dashed #ddd;
+		}
+		
+		.bottom{
+			overflow: hidden;
+		}
+		.bottom .btn{
+			color: #FFFFFF;
+			background: #0b6;
+			height: 3rem;
+			line-height: 3rem;
+			padding: 0 1rem;
+			float: right;
+			
+		}
+		.bottom .explain{
+			    display: inline-block;
+			    height: 3rem;
+			    line-height: 3rem;
+			    color: #0b6;
+			    text-decoration: underline;
+			    position: relative;
+			    padding: 6px 0 0 35px;
+		}
+		.bottom .explain:before {
+		    display: block;
+		    position: absolute;
+		    top: 6px;
+		    left: 0;
+		    width: 27px;
+		    height: 27px;
+		    background: url(//www.quimg.com/a14828/front_web/assets/dist/image/page/about/quality/icon.png) -74px 0 no-repeat;
+		}
+		

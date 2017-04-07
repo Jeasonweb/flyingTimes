@@ -1,0 +1,33 @@
+ /******************************************************************
+        * 功能模塊描述：创建共用于所有手机模块的样式，方便以后作业
+        * ===================================================
+        * 功能內容描述：创建共用于所有手机模块的样式
+        * 聯繫方式：Jeason_zhang888@163.com      Tel:13641638693
+        * 修改時間：
+        * ===================================================
+        *****************************************************************/
+       
+		section{
+			background: #f0f0f0;
+			padding: 0 2%;
+		}
+		#myCarousel{
+			width: 100%;
+			margin: 0 auto;
+			overflow: hidden;
+			
+		}
+		#myCarousel ul{
+			overflow: hidden;
+		}
+		#myCarousel li{
+			display: none;
+			width: 100%;
+			height: 30rem;
+			background-size:100% 100%;
+			
+		}
+		#myCarousel li.active{
+			display: block;
+		}
+

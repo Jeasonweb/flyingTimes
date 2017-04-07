@@ -35,7 +35,9 @@ var JZ = {
 			
 		}
 		
-		$('#myCarousel').html(tempStr);		
+		$('#myCarousel').html(tempStr);
+		tempStr = '';
+		
 		timer = setInterval(function(){
 			
 			++selectedIndex;
@@ -45,6 +47,8 @@ var JZ = {
 			$('#myCarousel li').eq(selectedIndex).addClass('active').siblings().removeClass('active');
 			
 		},2000);
+		
+		
 		
 		$('#myCarousel').on('mouseover','li',function(){
 			
